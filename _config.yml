@@ -12,10 +12,14 @@ author: Simran Kamboj
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  My dogs:
+    - liza: "assets/img/liza.png"
+    - Poxy: "assets/img.poxy.png"
+  Places I have been to: 
+    - Tokyo, Japan: "assets/img/tokyo1.png"
+    - Toronto, Canada: "assets/img/toronto1.png"
+    - Seattle, USA: "assets/img/seattle1.png"
+    
 
 ################
 # --- Logo --- #
