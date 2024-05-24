@@ -49,6 +49,11 @@
 *::after {
   box-sizing: border-box;
 }
+.avatar-image {
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* Automatically adjust the height while maintaining aspect ratio */
+    /*margin-left: 5px;*/
+}
 
 html {
   font-family: sans-serif;
@@ -11681,9 +11686,4 @@ pre .code {
   background: #F85C70;
   display: block;
   margin-top: 10px;
-}
-.avatar-image {
-    width: 200px; /* Adjust the width as needed */
-    height: auto; /* Automatically adjust the height while maintaining aspect ratio */
-    margin-left: 5px;
 }
