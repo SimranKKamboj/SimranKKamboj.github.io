@@ -11683,6 +11683,6 @@ pre .code {
   margin-top: 10px;
 }
 .avatar-image {
-    width: 50px; /* Adjust the width as needed */
-    height: auto; /* Automatically adjust the height while maintaining aspect ratio */
+    width: 10px; /* Adjust the width as needed */
+    height: 10px ; /* auto - Automatically adjust the height while maintaining aspect ratio */
 }
