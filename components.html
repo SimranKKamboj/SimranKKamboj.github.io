@@ -3,43 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Retro Groovy Fonts</title>
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Lobster&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>Full Screen Image</title>
     <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
         body {
-            background-color: #FFFFCC; /* Light yellow background */
-            text-align: center; /* Center align all text */
-            position: relative; /* Position relative for absolute positioning of flowers and stars */
-            padding: 50px;
-        }
-        h1 {
-            margin: 20px 0; /* Add some margin for better spacing */
-            font-family: 'Pacifico', cursive; /* Groovy retro font for headers */
-            font-weight: bold; /* Make text bold */
-        }
-        h3 {
-            margin: 20px 0; /* Add some margin for better spacing */
-            font-family: 'Lobster', cursive; /* Groovy retro font for sub-headers */
-            font-weight: bold; /* Make text bold */
-        }
-        .arcade {
-            font-family: 'Press Start 2P', cursive; /* Arcade gamer font */
-            font-weight: bold; /* Make text bold */
-            margin: 20px 0; /* Add some margin for better spacing */
-        }
-        #puppy-image {
-            width: 60%; /* Adjust the width as needed */
-            max-width: 350px; /* Limit the maximum width to 300 pixels */
-            height: auto; /* Maintain aspect ratio */
-            display: block; /* Center the image */
-            margin: 0 auto; /* Center the image */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url('assets/imgs/bonus.png') no-repeat center center fixed;
+            background-size: cover;
         }
     </style>
 </head>
 <body>
-    <h1 class="arcade">BONUS: My Shiba Inu Puppy</h1>
-    <img id="puppy-image" src="assets/imgs/nami.JPG" alt="Shiba Inu Puppy"> 
-    <h3>Isn't he adorable?</h3>
 </body>
 </html>
