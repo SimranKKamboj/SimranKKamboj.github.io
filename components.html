@@ -5,10 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BONUS: My Shiba Inu Puppy</title>
     <style>
+        body {
+            background-color: #FFFFCC; /* Light yellow background */
+            font-family: 'Roboto Slab', serif; /* Retro font */
+            text-align: center; /* Center align all text */
+            position: relative; /* Position relative for absolute positioning of flowers and stars */
+        }
+        h1, h3 {
+            margin: 20px 0; /* Add some margin for better spacing */
+        }
         #puppy-image {
             width: 50%; /* Adjust the width as needed */
             max-width: 300px; /* Limit the maximum width to 300 pixels */
             height: auto; /* Maintain aspect ratio */
+            display: block; /* Center the image */
+            margin: 0 auto; /* Center the image */
+        }
+        .retro-img {
+            position: absolute; /* Position absolutely within the body */
         }
     </style>
 </head>
@@ -16,5 +30,11 @@
     <h1>BONUS: My Shiba Inu Puppy</h1>
     <img id="puppy-image" src="assets/imgs/nami.JPG" alt="Shiba Inu Puppy"> 
     <h3>Isn't he adorable?</h3>
+    <!-- Flower and star images -->
+    <img src="assets/imgs/retro-flower2.png" alt="Retro Flower" class="retro-img" style="top: 100px; left: 50px;">
+    <img src="assets/imgs/retro-star.png" alt="Retro Star" class="retro-img" style="top: 200px; right: 50px;">
+    <img src="assets/imgs/retro-flower1.png" alt="Retro Flower" class="retro-img" style="bottom: 150px; left: 150px;">
+    <img src="assets/imgs/retro-star.png" alt="Retro Star" class="retro-img" style="bottom: 250px; right: 150px;">
+    <!-- Add more instances of flowers and stars as needed -->
 </body>
 </html>
