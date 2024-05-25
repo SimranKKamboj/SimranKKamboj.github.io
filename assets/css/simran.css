@@ -50,8 +50,8 @@
   box-sizing: border-box;
 }
 .avatar-image {
-    width: 100px; /* Adjust the width as needed */
-    /*height: auto; /* Automatically adjust the height while maintaining aspect ratio */
+    width: 50px; /* Adjust the width as needed */
+    height: auto; /* Automatically adjust the height while maintaining aspect ratio */
     margin-left: 5px;
 }
 
