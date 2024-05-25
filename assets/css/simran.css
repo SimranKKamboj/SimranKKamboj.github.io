@@ -11374,27 +11374,27 @@ pre .code {
   width: 300px;
 }
 
+
 .social-icons {
   list-style-type: none;
   padding-left: 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  max-width: 180px;
+}
+
+.social-icons .social-item {
+  margin-right: 10px; /* Adjust the spacing between icons */
 }
 
 .social-icons .social-link {
   font-size: 18px;
+  color: #ffffff; /* Set default color */
+  transition: color 0.3s ease; /* Add transition effect */
 }
 
 .social-icons .social-link:hover {
-  color: #F85C70;
+  color: #F85C70; /* Change color on hover */
 }
+
 
 .navbar {
   box-shadow: 0 1px 10px rgba(54, 54, 54, 0.18);
